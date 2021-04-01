@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+        </head>
+    </head>
+<main id="main-doc">
+ 
+  <nav id="navbar">
+    
+    <header>
+      C# PROGRAM 
+    </header>
+    
+    <ul id="navi">
+      <li><a class="nav-link border" href="#introduction">INTRODUCTION</a></li>
+      <li><a class="nav-link border" href="#environment">ENVIRONMENT</a></li>
+      <li><a class="nav-link border" href="#basic_structure">BASIC STRUCTURE</a></li>
+      <li><a class="nav-link border" href="#identifiers">IDENTIFIERS</a></li>
+      <li><a class="nav-link border" href="#c#_variables" id="last">C# VARIABLES</a></li>
+      
+      </nav>
+    <div id="body">
+  <section class="main-section" id="introduction">
+    <header> <h1> INTRODUCTION </h1></header>
+    <h3> <u><strong>What is C#?</strong> </u> </h3>
+    <p> C# is an elegant object oriented programming language design to work inside Microsoft .Net Framework. It provides simple programming by using Extensible Markup Language (XML) and Simple Object Access Protocol (SOAP) that allow access to an object or method of programming without requiring the programmer to write additional code for each stage. </p>
+    <p> C# programming allows developers to build cross-platform applications for Windows, Web, and mobile platforms. C# apps can be also deployed on Linux, Windows, iOS, and Android operating systems. It can be used to develop all kind of applications including Mobile applications, Desktop applications,  Web applications, Web services, Web sites, Games, VR, Database applications and much more.</p>
+  </section>
+  <section class="main-section" id="environment">
+    <header><h1> ENVIRONMENT </h1> </header>
+    <h3><u> <strong> The .Net Framework </strong></u></h3>
+      <p> .Net framework is a software platform designed and developed by Microsoft.  In plain terms, this is a virtual machine for compiling and running programs written in various languages such a C++, C#,  Visual Basic, Jscript etc. Whereas all these languages can communicate with each other and access their framework. This helps you to write the following types of applications − Form-based applications, Web-based applications, and Web services </p>
+    <p> The two major components of .NET Framework are the Common Language Runtime and the .NET Framework Class Library.</p>
+    <ul>
+      <li> <strong>Common Language Runtime(CLR) </strong> is  the .NET Framework 's basic and virtual machine part. This is basically the execution engine that handles  running the application. This provides support like thread management, garbage collection, type-safety, exception handling, and more. </li>
+      <li> <strong>	 Framework Class Library </strong> is a set of reusable, object oriented class libraries and methods and so on which can be implemented on CLR. The Class library provides set of APIs for reading and writing files, connecting to databases, drawing and more. </li>
+    </ul>
+    
+    <h3><u> <strong> Integrated Development Environment (IDE) for C# </strong></u></h3>
+    <p>An IDE (Integrated Development Environment) is the software application that is used to type and compile your code. Visual Studio is the professional IDE developed by Microsoft that is used to design and develop the .NET applications. This is the best IDE for C# developers since the program, the framework and the language are all created by Microsoft.
+
+
+Visual Studio offers three different IDEs;
+</p>
+    <ul>
+      <li>Visual Studio Enterprise</li>
+      <li>Visual Studio Professional </li>
+<li>Visual Studio Community.</li>
+    </ul>
+  </section>
+  <section class="main-section" id="basic_structure">
+    <header> <h1>BASIC STRUCTURE </h1> 
+    </header>
+<p> Now that you understood how to open and execute your program, let us now understand the basic structure of the C# program.</p>
+    <p>A typical C# Program consist of various parts as shown below;</p>
+    <ol class="alpha">
+      <li>Namespace</li>
+      <li>Class</li>
+      <li>The main method</li>
+      <li>Methods inside the class</li>
+      <li>Class definition or class attributes</li>
+      <li>Statements</li>
+      <li>Comments</li>
+    </ol>
+    
+    <h3><u><strong> Hello World</strong></u></h3>
+      <p> Let us look at a sample code that prints the words "Hello World" </p>
+     <div class="code"> <code> <span style="color:blue">using</span> System;  <br>
+        <span style="color:blue">namespace</span> HelloWorld <br>
+{<br>
+        <span style="padding-left: 20px; color:blue">class</span> Program<br>
+        <span style="padding-left:20px">{</span><br>
+        <span style="padding-left: 30px; color:blue">static void</span> Main(string[] args) <br>
+        <span style="padding-left:30px">{</span><br>
+        <span style="padding-left:35px">Console.WriteLine</span>(<span style="color:red">"Hello World!"</span>);<br>
+        <span style="padding-left:35px; color:green">//Displays Hello World </span> <br>
+        <span style="padding-left:30px">}</span><br>
+    <span style="padding-left:20px">}</span><br>
+}
+       </code> </div>
+  </section>
+  <section class="main-section" id="identifiers">
+    <header><h1>IDENTIFIERS</h1></header>
+    <p>An identifier is a term used to identify a certain, class, variable, function or any user-defined items.
+<br>
+ <br>
+Rules for creating identifiers;
+      <ul>
+        <li>It must be unique.</li>
+        <li>It can contain only letters,digits and underscore “_” sign.</li>
+        <li>It should begin with a letter</li>
+        <li>It can’t contain reserved keywords.</li>
+<li>It is case sensitive ( “myNum” and “mynum” are different variables)
+</li>
+    </ul>
+</p>
+  <h4> Example: </h4>
+    <div class="code">
+    <code >&nbsp;&nbsp;      public class Program<br> 
+        &nbsp;     &nbsp;{ <br>
+      <span style="padding-left:40px" >  static void Main()</span><br>
+      <span style="padding-left:40px" >{</span><br>
+      <span style="padding-left:55px" > string Name;</span><br>
+      <span style="padding-left:40px" > }</span><br>
+      <span style="padding-left:25px" > } </span>
+
+    </code> </div>
+    <p>In this example, the total number of identifiers is three (3); </p>
+  
+  <ol>
+    <li>  <span style="font-size:15px"><code>Program</code></span> : Class Name</li>
+    <li <span style="font-size:15px"><code>Main</code></span> : Method Name</li>
+    <li> <span style="font-size:15px"><code>Name</code></span> : Variable Name</li>
+
+  </ol>
+  </section>
+  <section class="main-section" id="c#_variables">
+    <header><h1> C# VARIABLES </h1></header>
+    <p>Variables are containers for storing your data values.  Each variable in C# has a specific  data type, which determines the size and layout of the memory of the variable, the range of values that can be stored in the memory, as well as the set of operations that can applied to it.
+In C# the basic values types are as follow;
+    </p>
+    <ul>
+      <li>Integral</li>
+      <li>Floating</li>
+      <li>Boolean</li>
+      <li>Decimal</li>
+      <li>Nullable</li>
+
+    </ul>
+  </section>
+</div>
+
+      </main>
+      </html>
